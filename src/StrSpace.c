@@ -27,13 +27,9 @@ void strSpaceMain(int argc, char** argv) {
 		strcpy(fourth, argv[4]);
 		printf("%s", fourth);
 		
-		
-		printf("Command Line Arguments %s %s %s %s", first, second, third, fourth); 
+		printf("Output %s %s %s %s", first, second, third, fourth);
 	} else {
-		
-		
 		scanf("%[^\n]", first);
-		
 		
         while ((ch = getchar()) != '\n' && ch != EOF);
         fgets(second, 80, stdin);
@@ -60,9 +56,10 @@ void strSpaceMain(int argc, char** argv) {
 #ifndef __CXX_TEST_MAIN__
 
 int main(int argc, char** argv){
-    printf("%d", argc);
+	
+ 	printf("%d", argc);
 	printf("%s", argv[1]);
-    strSpaceMain(argc, argv);
+ 	strSpaceMain(argc, argv);
     return 0;
 }
 
