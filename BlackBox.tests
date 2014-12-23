@@ -1,0 +1,30 @@
+[
+    {
+        "Hello_STDIN_1": {
+            "input": "firstname\r\nlastname",
+            "output": "Enter first name: Enter second name: Hello firstname lastname",
+            "type": "STDIN"
+        }
+    },
+    {
+        "Hello_STDIN_2": {
+            "input": "full\r\nfirstname and lastname",
+            "output": "Enter first name: Enter second name: Hello full firstname and lastname",
+            "type": "STDIN"
+        }
+    },
+    {
+        "Hello_CLI_1": {
+            "input": "firstname lastname",
+            "output": "Hello firstname lastname",
+            "type": "CLI"
+        }
+    },
+    {
+        "Hello_CLI_2": {
+            "input": "full 'firstname and lastname'",
+            "output": "Hello full firstname and lastname",
+            "type": "CLI"
+        }
+    }
+]

@@ -1,0 +1,27 @@
+{
+    "rubric": "StrSpace",
+    "lastSaved": "20141223 113452",
+    "weightage": {
+        "system": 100
+    },
+    "criteria": {
+        "system": [
+            {
+                "group": "system",
+                "checkType": "compile",
+                "checkName": "Compilation",
+                "visible": "eval",
+                "score": "0",
+                "penalty": "100",
+                "rule": {
+                    "warnings_ignore": [
+
+                    ],
+                    "deprecation_ignore": [
+
+                    ]
+                }
+            }
+        ]
+    }
+}
