@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 void strSpaceMain(int argc, char** argv) {
 	char first[100];
@@ -9,47 +10,32 @@ void strSpaceMain(int argc, char** argv) {
 	char ch;
 	int i;
 	
-	printf("%d", argc);
-	printf("%s", argv[1]);
-	
+//	printf("%d", argc);
+//	printf("%s", argv[9]);
+
+    strcpy(fourth, argv[9]);	
 	if(argc > 1) {
 		
 		printf("Inside if");
-		printf("Inside if");
+		printf("Inside if edited statement");
 		//printf("1%d", argc);
 		printf("%s", argv[1]);
 		strcpy(first, argv[1]);
 		printf("%s", first);
 		strcpy(second, argv[2]);
+		
 		printf("%s", second);
 		strcpy(third, argv[3]);
 		printf("%s", third);
 		strcpy(fourth, argv[4]);
 		printf("%s", fourth);
 		
-		printf("Output %s %s %s %s", first, second, third, fourth);
+		
+		
+	//	printf("Command line argument %s %s %s %s", first, second, third, fourth);
 	} else {
-		scanf("%[^\n]", first);
-		
-        while ((ch = getchar()) != '\n' && ch != EOF);
-        fgets(second, 80, stdin);
-        i = strlen(second)-1;
-        if( second[i] == '\n')
-        second[i] = '\0';
-		
-		while ((ch = getchar()) != '\n' && ch != EOF);
-        fgets(third, 80, stdin);
-        i = strlen(third)-1;
-        if( third[i] == '\n')
-        third[i] = '\0';
-		
-		while ((ch = getchar()) != '\n' && ch != EOF);
-        fgets(fourth, 80, stdin);
-        i = strlen(fourth)-1;
-        if( fourth[i] == '\n')
-        fourth[i] = '\0';
-		
-		printf("STDIN Arguments %s %s %s %s", first, second, third, fourth);
+		//gets(first); gets(second); gets(third); gets(fourth);
+		//printf("STDIN arg values [%s] [%s] [%s] [%s]", first, second, third, fourth);
 	}
 }
 

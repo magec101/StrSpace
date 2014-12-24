@@ -1,27 +1,60 @@
 {
-    "rubric": "StrSpace",
-    "lastSaved": "20141223 113452",
-    "weightage": {
-        "system": 100
-    },
     "criteria": {
+        "blackboxtests": [
+            {
+                "checkName": "1",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "xxx",
+                    "output": "",
+                    "type": "CLI"
+                },
+                "score": "5",
+                "visible": "all"
+            },
+            {
+                "checkName": "2",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "rrr",
+                    "output": "",
+                    "type": "CLI"
+                },
+                "score": "3",
+                "visible": "all"
+            },
+            {
+                "checkName": "3",
+                "checkType": "BlackBoxTest",
+                "group": "blackboxtests",
+                "penalty": "",
+                "rule": {
+                    "input": "dfadsfsd",
+                    "output": "",
+                    "type": "CLI"
+                },
+                "score": "3",
+                "visible": "all"
+            }
+        ],
         "system": [
             {
-                "group": "system",
+                "checkName": "",
                 "checkType": "compile",
-                "checkName": "Compilation",
-                "visible": "eval",
-                "score": "0",
-                "penalty": "100",
+                "group": "system",
+                "penalty": "",
                 "rule": {
-                    "warnings_ignore": [
-
-                    ],
-                    "deprecation_ignore": [
-
-                    ]
-                }
+                    "deprecation_ignore": "",
+                    "warnings_ignore": ""
+                },
+                "score": "",
+                "visible": "all"
             }
         ]
-    }
+    },
+    "lastSaved": "20141223 151522"
 }

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: StrSpaceBlackBoxTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.082 sec <<< FAILURE! - in StrSpaceBlackBoxTest
+test_blackbox[STD_IN_Test_01](StrSpaceBlackBoxTest)  Time elapsed: 0.029 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Output]> but was:<[1(null)]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at StrSpaceBlackBoxTest.test_blackbox(StrSpaceBlackBoxTest.java:84)
+
